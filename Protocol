@@ -1,0 +1,17 @@
+1. go to https://www.bv-brc.org/ and serach "human respiratory syncytial virus A"
+2.  Select Genome with numbers
+3. Go to FILTER and select 
+
+    Public -TRUE
+    genome status - COMPLETE
+    collection year : as required
+    isolation country -USA
+
+and click on APPLY
+
+4. select all genome and click and hold on GENOME in right hand side and go to the FEATURE
+5. search for CDS
+6. click on ADV search, select GENE and type the name of GENE OF INTEREST
+7. click on DOWNLOAD to download the table
+8. create a bed file with  "Accession	Start	End"
+9. use fetch_sequences.sh to get the sequence form NCBI
